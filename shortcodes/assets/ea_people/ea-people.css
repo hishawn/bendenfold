@@ -1,0 +1,82 @@
+/*
+custom promo 
+http://stackoverflow.com/questions/24765863/css-tabs-expand-height-to-content
+--------------------------------------------*/
+#top .avia-testimonial-wrapper {
+    width: 100%;
+}
+#top .ea-person {
+    border: none!important;
+    padding: 0;
+}
+#top .ea-person .ea-inner{
+    margin: 0 20px 20px 0;
+}
+#top .ea-person .ea-inner .avia-testimonial-image {
+    border-radius: 100px;
+    float: none;
+    height: 150px;
+    margin: 10px auto 20px;
+    overflow: hidden;
+    width: 150px;
+}
+#top .avia-last-testimonial.ea-person .ea-inner,
+#top .avia-last-testimonial.ea-person a.remodal-link {
+    margin-right: 0;
+}
+.ea-person a.remodal-link {
+    background-color: #fafafa;
+    display: block;
+    padding: 20px;
+	text-decoration: none;	
+}
+.ea-person a.remodal-link:hover {
+	background-color: #eee;
+	text-decoration: none;
+}
+#top .ea-person .avia-testimonial_inner {
+  text-align: center;
+}
+/*#top .ea-person .avia-testimonial_inner .avia-testimonial-meta-mini {
+    display: table-cell;
+	vertical-align:middle;
+}*/
+#top .ea-person .avia-testimonial-subtitle {
+	color:#666;
+	font-size:12px;
+}
+#top .ea-person .image-overlay {
+    background: none;
+}
+/*#top .ea-person p {
+	font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif
+}*/
+.person-modal-header .avia-testimonial-image {
+    float: none;
+    height: 160px;
+    margin: 10px auto 20px;
+    width: 160px;
+}
+.person-modal-header .avia-testimonial-name,
+.person-modal-header .avia-testimonial-subtitle {
+    margin: 5px 0 10px;
+}
+.person-modal-header .avia-testimonial-name {
+	font-weight: bold;
+	font-size:2em;
+}
+.person-modal-header .avia-testimonial-subtitle {
+	font-size:1.4em;
+}
+
+.person-modal .remodal-close {
+    background-color: red;
+    color: #fff;
+    left: auto;
+    margin: 20px;
+    right: 0;
+    top: 10px;
+}
+#top .person-modal .remodal-close:hover {
+	opacity:0.5;
+}
